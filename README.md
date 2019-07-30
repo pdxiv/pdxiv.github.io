@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome to the adventshark homepage
 
-You can use the [editor on GitHub](https://github.com/pdxiv/pdxiv.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Adventshark is a free and open source cross-platform interactive fiction authoring tool that allows the creation of "Scott Adams compatible" files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Download
 
-### Markdown
+[Windows version v0.1.0](https://github.com/pdxiv.github.io/Adventshark.exe)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Linux version v0.1.0](https://github.com/pdxiv.github.io/adventshark)
 
-```markdown
-Syntax highlighted code block
+MacOSX version currently unavailable due to GUI bugs 🤒
 
-# Header 1
-## Header 2
-### Header 3
+For more details and to build the files yourself please refer to the [GitHub repository](https://github.com/pdxiv/adventshark).
 
-- Bulleted
-- List
+### How to convert .dat files to .json
 
-1. Numbered
-2. List
+Since adventshark currently doesn't have file import functionality, old data files will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](https://github.com/pdxiv/scott2json.pl).
 
-**Bold** and _Italic_ and `Code` text
+#### Basic scott2json usage example (Linux/MacOSX)
 
-[Link](url) and ![Image](src)
+```bash
+./scott2json.pl adv01.dat > adv01.json
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Usage example with many files at once (Linux/MacOSX)
 
-### Jekyll Themes
+This example assumes that the `rename` utility is installed. It will convert all the `.dat` files in the directory at once to `.json` format.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pdxiv/pdxiv.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```bash
+ls -1 *.dat | xargs -i bash -c "./scott2json.pl {} | python -m json.tool > {}.json" ; rename -f 's/.dat.json$/.json/' *.dat.json
+```
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with adventshark? Check out the [GitHub repository](https://github.com/pdxiv/adventshark) and create an issue if you don't find what you need.
