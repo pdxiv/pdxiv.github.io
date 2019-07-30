@@ -4,9 +4,9 @@ Adventshark is a free and open source cross-platform interactive fiction authori
 
 ### Download
 
-[Windows version v0.1.0](https://github.com/pdxiv.github.io/Adventshark.exe)
+[Windows version v0.1.0](Adventshark.exe)
 
-[Linux version v0.1.0](https://github.com/pdxiv.github.io/adventshark)
+[Linux version v0.1.0](adventshark)
 
 MacOSX version currently unavailable due to GUI bugs 🤒
 
@@ -14,7 +14,7 @@ For more details and to build the files yourself please refer to the [GitHub rep
 
 ### How to convert .dat files to .json
 
-Since adventshark currently doesn't have file import functionality, old data files will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](https://github.com/pdxiv/scott2json.pl).
+Since adventshark currently doesn't have file import functionality, old data files will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](scott2json.pl).
 
 #### Basic scott2json usage example (Linux/MacOSX)
 
