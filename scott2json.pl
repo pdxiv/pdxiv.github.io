@@ -109,16 +109,11 @@ load_game_data_file();
 my %data_structure;
 %{ $data_structure{header} } = (
     game_bytes          => int($game_bytes),
-    number_of_objects   => int($number_of_objects),
-    number_of_actions   => int($number_of_actions),
-    number_of_words     => int($number_of_words),
-    number_of_rooms     => int($number_of_rooms),
     max_objects_carried => int($max_objects_carried),
     starting_room       => int($starting_room),
     number_of_treasures => int($number_of_treasures),
     word_length         => int($word_length),
     time_limit          => int($time_limit),
-    number_of_messages  => int($number_of_messages),
     treasure_room_id    => int($treasure_room_id),
     adventure_version   => int($adventure_version),
     adventure_number    => int($adventure_number),
