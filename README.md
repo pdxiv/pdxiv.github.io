@@ -2,9 +2,9 @@ Adventshark is a free and open source cross-platform interactive fiction authori
 
 ### Download
 
-[Windows version v0.1.0](Adventshark.exe)
+[Windows version v0.1.0](https://github.com/pdxiv/adventshark/releases/download/v0.1.0/adventshark_windows_v0.1.0.zip)
 
-[Linux version v0.1.0](adventshark)
+[Linux version v0.1.0](https://github.com/pdxiv/adventshark/releases/download/v0.1.0/adventshark_linux_v0.1.0.zip)
 
 MacOSX version currently unavailable due to GUI bugs 🤒
 
