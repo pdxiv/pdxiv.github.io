@@ -1,5 +1,3 @@
-## Welcome to the adventshark homepage
-
 Adventshark is a free and open source cross-platform interactive fiction authoring tool that allows the creation of "Scott Adams compatible" files.
 
 ### Download
@@ -14,7 +12,7 @@ For more details and to build the files yourself please refer to the [GitHub rep
 
 ### How to convert .dat files to .json
 
-Since adventshark currently doesn't have file import functionality, old data files will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](scott2json.pl).
+Since adventshark currently doesn't have file import functionality, old "Scott Adams" data files from TRS-80 will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](scott2json.pl).
 
 #### Basic scott2json usage example (Linux/MacOSX)
 
