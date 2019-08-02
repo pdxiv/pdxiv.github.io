@@ -16,7 +16,7 @@ Preconditions declare the action type as one of the following types:
 
 ### Verb-Noun
 
-This means that the action is run if the correct two words (verbs and nouns) are input by the player.
+This means that the action is run if the correct two words (verbs and nouns) are input by the player. If the second word (the noun) is set to "Auto", the action only needs the first word (the verb) to match, to execute.
 
 ### Auto
 
