@@ -1,6 +1,34 @@
 # Action reference
 
-## Condition descriptions
+Actions consist of three parts:
+- Preconditions
+- Conditions
+- Commands
+
+## Preconditions
+
+This part defines what type the action is.
+
+Preconditions declare the action type as one of the following types:
+- Verb-Noun
+- Auto
+- Subroutine
+
+### Verb-Noun
+
+This means that the action is run if the correct two words (verbs and nouns) are input by the player.
+
+### Auto
+
+This means that the action has a random chance of running, every time a player makes a move. The chance can be set between 1 (execute 1% of the time) and 100 (execute every time).
+
+### Subroutine
+
+This is used to make it possible for an action to trigger more than 4 commands. If a Verb-Noun action or Auto action has used the "continue" command, all following subroutine actions will execute. A subroutine action will never execute, unless triggered with a "continue" command.
+
+## Conditions
+
+Conditions do two things: provide arguments for commands and provide conditions which must be met to continue the execution of the action. If one or more of the conditions fail, the action will stop executing and the next action in the list will be evaluated.
 
 Name | Description
 ---- | -----------
@@ -25,7 +53,9 @@ not present | Fails if the selected object is available either because the playe
 parameter | Always passes. This is used to supply parameters for commands in this action entry.
 present | Passes if the player has the selected object available either because he/she is carrying it or it is in the same room. It fails if the selected object is in any other room.
 
-## Command descriptions
+## Commands
+
+Commands are used to manipulate the game world, and to print things on the screen for the player to see. Commands take anything from zero to two arguments, depending on which one is executing. The arguments are provided by the preceding Condition block of the action.
 
 Name | Description
 ---- | -----------
