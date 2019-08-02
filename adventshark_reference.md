@@ -4,7 +4,7 @@
 
 Name | Description
 ---- | -----------
-at | Passes if the player is in the numnbered room. It fails if the player is in any other room.
+at | Passes if the player is in the selected room. It fails if the player is in any other room.
 carried | Passes is the player is carrying the selected object. It fails if the selected object is in this room or any other room.
 counter eq | Passes if the counter is equal to the number. It fails if the counter is not equal to the number.
 counter gt | Passes if the counter is greater than the number. It fails if the counter is less than or equal to the number. See the description of the counter later.
