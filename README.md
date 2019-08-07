@@ -19,6 +19,7 @@ For more details and to build the files yourself please refer to the [GitHub rep
 Documentation is currently a work in process but there is some reference information on the [adventshark reference page](adventshark_reference.md).
 
 There is also a short [demonstration game](demonstration_game.json) available.
+There is also a short [demonstration game](adventshark/demonstration_game.json) available.
 
 ### How to convert .dat files to .json
 
