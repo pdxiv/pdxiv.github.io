@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 body {
- background-image: url("../../adventshark_background.png");
+ background-image: url("../../adventshark_background.png"); /* for older browsers */
  /* background-color: #cccccc; */
+ background-image: url("../../adventshark_background.png"), linear-gradient(#eb01a5, #d13531); 
 }
