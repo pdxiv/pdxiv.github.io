@@ -18,6 +18,8 @@ For more details and to build the files yourself please refer to the [GitHub rep
 
 Documentation is currently a work in process but there is some reference information on the [adventshark reference page](adventshark_reference.md).
 
+There is also a short [demonstration game](demonstration_game.json) available.
+
 ### How to convert .dat files to .json
 
 Since adventshark currently doesn't have file import functionality, old "Scott Adams" data files from TRS-80 will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](scott2json.pl). Some of the original adventure game files in `.dat` format can be obtained from [Scott Adams' web site](http://www.msadams.com/downloads.htm) directly.
