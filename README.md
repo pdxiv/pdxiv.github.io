@@ -20,6 +20,12 @@ Documentation is currently a work in process but there is some reference informa
 
 There is also a short [demonstration game](https://github.com/pdxiv/adventshark/blob/master/demonstration_game.json) available.
 
+### How to play the games
+
+By using the "Export As" menu option, adventshark can generate files compatible with the Scott Adams/Adventure International game engine. Any "driver" program that allows you to play Scott Adams games can be used to run the games that have been created in adventshark. Some examples of programs are [PerlScott](https://github.com/pdxiv/PerlScott/releases/download/v1.0.0/perlscott.pl) and [ScottFree](https://www.ifarchive.org/indexes/if-archiveXscott-adamsXinterpretersXscottfree.html).
+
+Please note, that adventshark can be used to produce data files that exceed limitations of some specific programs.
+
 ### How to convert .dat files to .json
 
 Since adventshark currently doesn't have file import functionality, old "Scott Adams" data files from TRS-80 will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](https://github.com/pdxiv/adventshark/blob/master/scott2json.pl). Some of the original adventure game files in `.dat` format can be obtained from [Scott Adams' web site](http://www.msadams.com/downloads.htm) directly.
