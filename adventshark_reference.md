@@ -1,3 +1,32 @@
+# Reserved item locations
+
+## Reserved verb locations
+
+Verb location | Verb | Comment
+------------- | ---- | -------
+0 | AUT | Not used as a verb in actions
+1 | GO |
+10 | GET |
+18 | DROP |
+
+## Reserved noun locations
+
+Noun location | Noun | Comment
+------------- | ---- | -------
+0 | ANY | Pseudo-noun that means that no noun is used
+1 | NORTH |
+2 | SOUTH |
+3 | EAST |
+4 | WEST |
+5 | UP |
+6 | DOWN |
+
+## Reserved object locations
+
+Object location | Comment
+--------------- | -------
+9 | artificial light source in its lighted state
+
 # Action reference
 
 Actions consist of three parts:
