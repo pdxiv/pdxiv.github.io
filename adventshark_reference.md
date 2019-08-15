@@ -1,6 +1,12 @@
-# Reserved item locations
+# Adventshark reference
 
-## Reserved verb locations
+Documentation is currently a work in process but this is some of the more essential reference information.
+
+## Reserved item locations
+
+Some verbs, nouns and objects need to be in a particular location for things to work correctly. They are as follows.
+
+### Reserved verb locations
 
 Verb location | Verb | Comment
 ------------- | ---- | -------
@@ -9,7 +15,7 @@ Verb location | Verb | Comment
 10 | GET |
 18 | DROP |
 
-## Reserved noun locations
+### Reserved noun locations
 
 Noun location | Noun | Comment
 ------------- | ---- | -------
@@ -21,20 +27,20 @@ Noun location | Noun | Comment
 5 | UP |
 6 | DOWN |
 
-## Reserved object locations
+### Reserved object locations
 
 Object location | Comment
 --------------- | -------
 9 | artificial light source in its lighted state
 
-# Action reference
+## Action reference
 
 Actions consist of three parts:
 - Preconditions
 - Conditions
 - Commands
 
-## Preconditions
+### Preconditions
 
 This part defines what type the action is.
 
@@ -43,19 +49,19 @@ Preconditions declare the action type as one of the following types:
 - Auto
 - Subroutine
 
-### Verb-Noun
+#### Verb-Noun
 
 This means that the action is run if the correct two words (verbs and nouns) are input by the player. If the second word (the noun) is set to "Auto", the action only needs the first word (the verb) to match, to execute.
 
-### Auto
+#### Auto
 
 This means that the action has a random chance of running, every time a player makes a move. The chance can be set between 1 (execute 1% of the time) and 100 (execute every time).
 
-### Subroutine
+#### Subroutine
 
 This is used to make it possible for an action to trigger more than 4 commands. If a Verb-Noun action or Auto action has used the "continue" command, all following subroutine actions will execute. A subroutine action will never execute, unless triggered with a "continue" command.
 
-## Conditions
+### Conditions
 
 Conditions do two things: provide arguments for commands and provide conditions which must be met to continue the execution of the action. If one or more of the conditions fail, the action will stop executing and the next action in the list will be evaluated.
 
@@ -82,7 +88,7 @@ not present | Fails if the selected object is available either because the playe
 parameter | Always passes. This is used to supply parameters for commands in this action entry.
 present | Passes if the player has the selected object available either because he/she is carrying it or it is in the same room. It fails if the selected object is in any other room.
 
-## Commands
+### Commands
 
 Commands are used to manipulate the game world, and to print things on the screen for the player to see. Commands take anything from zero to two arguments, depending on which one is executing. The arguments are provided by the preceding Condition block of the action.
 
