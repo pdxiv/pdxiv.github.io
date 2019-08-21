@@ -1,6 +1,6 @@
 # Adventshark reference
 
-Documentation is currently a work in process but this is some of the more essential reference information.
+Documentation is currently a work in process but this document contains some of the more essential reference information.
 
 ## Reserved item locations
 
