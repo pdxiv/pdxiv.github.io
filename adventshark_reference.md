@@ -31,7 +31,7 @@ Noun location | Noun | Comment
 
 Object location | Comment
 --------------- | -------
-9 | artificial light source in its lighted state
+9 | Artificial light source in its lighted state
 
 ## Action reference
 
@@ -42,7 +42,7 @@ Actions consist of three parts:
 
 ### Preconditions
 
-This part defines what type the action is.
+This part defines what type the action has.
 
 Preconditions declare the action type as one of the following types:
 - Verb-Noun
@@ -51,7 +51,7 @@ Preconditions declare the action type as one of the following types:
 
 #### Verb-Noun
 
-This means that the action is run if the correct two words (verbs and nouns) are input by the player. If the second word (the noun) is set to "Auto", the action only needs the first word (the verb) to match, to execute.
+This means that the action is run if the correct two words (verbs and nouns) are input by the player. If the second word (the noun) is set to "ANY", the action only needs the first word (the verb) to match, to execute.
 
 #### Auto
 
