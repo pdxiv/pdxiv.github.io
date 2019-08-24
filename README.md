@@ -28,7 +28,7 @@ Please note, that adventshark can be used to produce data files that exceed limi
 
 ### How to convert .dat files to .json
 
-Since adventshark currently doesn't have file import functionality, old "Scott Adams" data files from TRS-80 will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](https://github.com/pdxiv/adventshark/blob/master/scott2json.pl). Some of the original adventure game files in `.dat` format can be obtained from [Scott Adams' web site](http://www.msadams.com/downloads.htm) directly.
+Since adventshark currently doesn't have file import functionality, old "Scott Adams" data files from TRS-80 will first need to be converted to adventshark's `.json` format with an included Perl script: [scott2json.pl](https://github.com/pdxiv/adventshark/blob/master/scott2json.pl). (Requires Readonly.pm and JSON.pm, which in Ubuntu can be installed with `sudo apt install libjson-perl libreadonly-perl`) Some of the original adventure game files in `.dat` format can be obtained from [Scott Adams' web site](http://www.msadams.com/downloads.htm) directly.
 
 #### Basic scott2json usage example (Linux/MacOSX)
 
