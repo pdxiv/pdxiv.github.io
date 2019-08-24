@@ -1,6 +1,6 @@
 # Adventshark reference
 
-Documentation is currently a work in process but this is some of the more essential reference information.
+Documentation is currently a work in process but this document contains some of the more essential reference information.
 
 ## Reserved item locations
 
@@ -31,7 +31,7 @@ Noun location | Noun | Comment
 
 Object location | Comment
 --------------- | -------
-9 | artificial light source in its lighted state
+9 | Artificial light source in its lighted state
 
 ## Action reference
 
@@ -42,7 +42,7 @@ Actions consist of three parts:
 
 ### Preconditions
 
-This part defines what type the action is.
+This part defines what type the action has.
 
 Preconditions declare the action type as one of the following types:
 - Verb-Noun
@@ -51,7 +51,7 @@ Preconditions declare the action type as one of the following types:
 
 #### Verb-Noun
 
-This means that the action is run if the correct two words (verbs and nouns) are input by the player. If the second word (the noun) is set to "Auto", the action only needs the first word (the verb) to match, to execute.
+This means that the action is run if the correct two words (verbs and nouns) are input by the player. If the second word (the noun) is set to "ANY", the action only needs the first word (the verb) to match, to execute.
 
 #### Auto
 
@@ -70,7 +70,7 @@ Name | Description
 at | Passes if the player is in the selected room. It fails if the player is in any other room.
 carried | Passes is the player is carrying the selected object. It fails if the selected object is in this room or any other room.
 counter eq | Passes if the counter is equal to the number. It fails if the counter is not equal to the number.
-counter gt | Passes if the counter is greater than the number. It fails if the counter is less than or equal to the number. See the description of the counter later.
+counter gt | Passes if the counter is greater than the number. It fails if the counter is less than or equal to the number.
 counter le | Passes if the counter is less than or equal to the number. It fails if the counter is greater than the number. See the description of the counter later.
 exists | Fails if the selected object is in room 0 (the storeroom). It passes if the object is in any other room.
 flag | Passes if the numbered flag-bit is set. It fails if the flag-bit is cleared. See the description later for flag-bits.
