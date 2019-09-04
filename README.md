@@ -6,11 +6,11 @@ Adventshark is a free and open source cross-platform interactive fiction authori
 
 ### Download
 
-[Windows version v0.1.1](https://github.com/pdxiv/adventshark/releases/download/v0.1.1/adventshark_windows_v0.1.1.zip)
+[Windows version v0.1.2](https://github.com/pdxiv/adventshark/releases/download/v0.1.2/adventshark_windows_v0.1.2.zip)
 
-[MacOS version v0.1.1](https://github.com/pdxiv/adventshark/releases/download/v0.1.1/adventshark_macos_v0.1.1.zip)
+[MacOS version v0.1.2](https://github.com/pdxiv/adventshark/releases/download/v0.1.2/adventshark_macos_v0.1.2.zip)
 
-[Linux version v0.1.1](https://github.com/pdxiv/adventshark/releases/download/v0.1.1/adventshark_linux_v0.1.1.zip)
+[Linux version v0.1.2](https://github.com/pdxiv/adventshark/releases/download/v0.1.2/adventshark_linux_v0.1.2.zip)
 
 For more details and to build the files yourself please refer to the [GitHub repository](https://github.com/pdxiv/adventshark).
 
@@ -18,7 +18,7 @@ For more details and to build the files yourself please refer to the [GitHub rep
 
 Documentation is currently a work in process but there is some reference information on the [adventshark reference page](adventshark_reference.md).
 
-There is also a short [demonstration game](https://github.com/pdxiv/adventshark/blob/master/demonstration_game.json) available.
+There is also a short [demonstration game](https://github.com/pdxiv/adventshark/releases/download/v0.1.2/demonstration_game.json) available.
 
 ### How to play the games
 
